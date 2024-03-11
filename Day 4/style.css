@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background: salmon;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#page1 .row {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page1 .row .left button {
+    font-size: 20px;
+    padding: 20px 30px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
