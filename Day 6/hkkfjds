@@ -1,0 +1,38 @@
+Scanner sc = new Scanner(System.in);
+
+int n = sc.nextInt();
+
+ int i = n;
+
+ if (i < 0){
+     i = i * -1;
+ }
+
+ int rev = 0;
+
+ 
+
+ while (i > 0) {
+    int d = i % 10;
+
+    rev = rev * 10 + d;
+     System.out.print(d);
+     i = i/10;
+ }
+
+ if (n<0) {
+    rev = rev * -1;
+ }
+
+
+
+
+ Scanner sc = new Scanner(System.in);
+
+int t = sc.nextInt();
+
+ int i = t%10;
+
+ while (i >= 0) {
+    System.out.print(i);
+ }
