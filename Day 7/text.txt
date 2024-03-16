@@ -1,0 +1,33 @@
+gsap.registerPlugin(ScrollTrigger);
+
+hello@cargo.io
+
+Cargo Design Agency
+
+Ahead with 100+ Amazing clients with 20+ Country
+<br>
+Served the best design materials.
+
+1.
+TECHNOLOGY
+Dashboard
+
+Best Technology results-driven web design
+and maketing agencies.
+
+View Casw Study
+
+
+2.
+FINANCE
+Mobile App
+
+Dunkins Tech
+Using a proven method of innovation design marketing strategies.
+
+
+3.
+TRAVEL
+Mobile App
+Nokia Gadget
+Build Customize and play Using plug data Driven customers.
