@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+    height: 100%;
+}
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom: 1px solid #dadada;
+}
+header h3 {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+.menu {
+    display: none;
+}
+header>a {
+   display: none;
+} 
+.menu-icons {
+    display: block;
+    font-size: 32px;
+    padding-top: 1rem;
+    color: blueviolet;
+}
+
+
+
+/* page */
+#page {
+    padding: 50px  
+}
+#page .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+#page .left .hero-text{
+    font-size: .875rem;
+    font-weight: 800;
+}
+
+#page .left .hero-heading{
+    font-size: 3rem;
+    font-weight: 800;
+}
+#page .left .hero-desc{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #777;
+}
+#page .left .hero-btn{
+    padding: 1rem 2rem;
+        font-size: 1.2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        background: black;
+        border-radius: 0.2rem;
+        display: block;
+        border: navajowhite;
+}
+
+#page .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center; 
+}
+
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        font-size: 1.2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: blueviolet;
+    }
+    header>a {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        background: black;
+        border-radius: 0.2rem;
+        display: block;
+    } 
+    .menu-icons {
+        display: none;
+    }
+    #page {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    #page .left {
+        width: 50%;
+        display: flex;
+        text-align: left;
+        align-items: flex-start;
+    }
+    #page .left .hero-text{
+        width: 100%;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+    #page .left .hero-heading{
+       font-size: 5rem;
+    }
+    #page .left .hero-desc {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        max-width: 665px;
+     }
+
+    #page .right {
+        width: 50%;
+    }
+    #page .right img {
+        border-radius: 1rem;
+        box-shadow: 0 4px 8px #373737;
+        transition: all 1s ease;
+    }
+    #page .right img:hover {
+       transform: scale(1.1);
+    }
+
+}
